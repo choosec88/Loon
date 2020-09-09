@@ -63,15 +63,6 @@ cron "0 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScri
 # 爱尚打卡
 cron "0 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/asdkziye.js,tag=爱尚打卡
 
-# 陀螺打卡
-cron "*/30 0-11 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.js, tag=陀螺打卡
-
-# 玩游戏打卡
-cron "0 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/wyxdkziye.js,tag=玩游戏打卡
-
-# 早起打卡
-cron "0 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.js,tag=早起打卡
-
 # > 吾爱破解
 cron "30 4 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,tag=吾爱破解
 
@@ -127,10 +118,6 @@ cron "56 6 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts
 # 3.在阅读文章最下面有个惊喜红包，点击获取惊喜红包请求
 # 4.激励视频获取方法: 关闭vpn，进入任务中心=>抽奖赚点击下面第一个宝箱，出现视频广告页面，然后打开vpn，等待视频播放完毕，点击点我继续领青豆，再重复一次上面操作，获取激励视频请求的body
 cron "20 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,tag=中青看点极速版
-
-# > 微信小程序-活动抽奖 (By @makexp & @zZPiglet)
-#打开微信小程序 进入“活动抽奖”，手动签到一次或点击“已签到”
-cron "30 11 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/WeChatLottery_new.js,tag=微信小程序-活动抽奖
 
 # > 滴滴出行 (By @zZPiglet)
 # 进入"滴滴出行"，若弹出"首次写入滴滴出行 Token 成功"
