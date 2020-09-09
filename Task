@@ -1,6 +1,5 @@
 # 签到合集
 
-# 签到脚本
 # 京东
 cron "10 3 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,tag=东东
 
