@@ -44,10 +44,10 @@ http-request ^https:\/\/luckman.suning.com\/luck-web\/sign\/api\/clock_sign.do s
 http-request ^https:\/\/sign.suning.com\/sign-web\/m\/promotion\/sign\/doSign.do script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
 http-request ^https:\/\/gameapi.suning.com\/sngame-web\/(api\/signin\/private\/customerSignOperation.do|gateway\/api\/queryPrize.do) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
 
-# > 微信小程序-同程艺龙 (By @barrymchen)
+# > 微信小程序-同程艺龙 
 http-request ^https:\/\/wx\.17u\.cn\/wcsign\/sign\/GetSignInfo script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tongc_cookie.js,requires-body=true
 
-# > 京东到家 (By @barrymchen, @GideonSenku & @Macsuny)
+# > 京东到家 
 http-request https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js
 
 # > 快手极速版
@@ -59,40 +59,41 @@ http-request ^https?:\/\/.*\/mobile\-user\/homePage\/.* script-path=https://raw.
 # > 微信小程序 来客有礼
 http-request https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js
 
-# > 微博(By @Macsuny)
+# > 微博
 http-request https:\/\/api\.weibo\.cn\/\d\/video\/machine\?gsid script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
+
 # > 钱包
 http-request https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
 
-# > 腾讯新闻 (By 红鲤鱼与绿鲤鱼与驴 & @Macsuny)
+# > 腾讯新闻 
 http-request https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, requires-body=true
 
-# > 新浪新闻(By @Macsuny)
+# > 新浪新闻
 http-request https:\/\/newsapi\.sina\.cn\/\?resource=hbpage&newsId=HB-1-sina_gold_center script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js
 http-request https:\/\/newsapi\.sina\.cn\/\?resource=userpoint\/signIn script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js
 
-# > 中青看点极速版 (By @Macsuny)
+# > 中青看点极速版 
 http-request https:\/\/ios\.baertt\.com\/v5\/article\/complete script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
 http-request https:\/\/\w+\.youth\.cn\/TaskCenter\/(sign|getSign) script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
 http-request https:\/\/ios\.baertt\.com\/v5\/article\/red_packet script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
 http-request https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
 
-# > 欧可林 (By @zZPiglet)
+# > 欧可林 
 http-request ^https:\/\/mall\.oclean\.com\/API\/VshopProcess\.ashx$ script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean.js, tag=欧可林cookie
 
-# > 微信小程序 - 欧可林商城 (By @zZPiglet)
+# > 微信小程序 - 欧可林商城
 http-request ^https:\/\/mall\.oclean\.com\/API\/VshopProcess\.ashx\?action=TaskHome&clientType=5&client=5&openId= script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js, tag=欧可林商城cookie
 
-# > 微博通知 (By @zZPiglet)
+# > 微博通知
 http-request ^https:\/\/m\.weibo\.cn\/feed\/ script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js
 
-# > 京东价格提醒(By toulanboy)
+# > 京东价格提醒
 ^http-request https:\/\/apapia-history\.manmanbuy\.com\/ChromeWidgetServices\/WidgetServices\.ashx script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,requires-body=true, tag=京东价格提醒cookie获取
 
-# > 哔哩哔哩番剧监控 (By @lowking0415)
+# > 哔哩哔哩番剧监控 
 http-request https?:\/\/app.bilibili.com\/x\/v2\/space\/bangumi script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js, timeout=10, tag=哔哩哔哩番剧监控cookie
 
-# > 惠头条 (By 红鲤鱼与绿鲤鱼与驴)
+# > 惠头条
 http-request https:\/\/api\.cashtoutiao\.com script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/htt_cookie.js, requires-body=true, timeout=30, tag=惠头条cookie
 
 # 宠汪汪强制为别人助力
@@ -101,29 +102,16 @@ http-request ^https:\/\/draw\.jdfcloud\.com\/\/pet\/enterRoom\?reqSource=weapp&i
 # 哔哩哔哩 番剧监控
 http-request https?:\/\/app.bilibili.com\/x\/v2\/space\/bangumi script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js, timeout=10, tag=哔哩哔哩番剧监控cookie
 
-# 小米有品 id 小可爱
+# 小米有品 
 # 获取方式:进入签到页面获取，https://m.xiaomiyoupin.com:个人中心->我的资产->积分
 http-request ^https:\/\/m\.xiaomiyoupin\.com\/api\/auth\/login\/isloggedin script-path=https://raw.githubusercontent.com/dompling/Script/master/xiaomiyp/xiaomiyp.cookie.js
 
-# 微信小程序： 音乐line   id ziye12
+# 微信小程序： 音乐line 
 # 进对应小程序获取ck
 http-request ^https:\/\/www\.baimaa\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js, requires-body=true, timeout=10, tag=打卡
 
-# 爱尚打开id ziye12
-# 微信扫码  https://raw.githubusercontent.com/ziye12/JavaScript/master/asdkziye.png 进入小程序，登录获取授权
+# 爱尚打卡
 http-request ^https:\/\/ph0001\.hezyq\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/asdkziye.js, requires-body=true, timeout=10, tag=爱尚打卡
 
-# 陀螺打卡id ziye12
-# 微信扫码 https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.png 进入小程序，登录获取授权
-http-request ^https:\/\/wq\.02gk\.com\/* script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.js, requires-body=true, timeout=10, enabled=false, tag=陀螺打卡
-
-# 玩游戏打卡 id ziye12
-# 微信扫码  https://raw.githubusercontent.com/ziye12/JavaScript/master/wyxdkziye.png 进入小程序，登录获取授权
-http-request ^https:\/\/we7\.ivee\.top\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/wyxdkziye.js, requires-body=true, timeout=10, tag=玩游戏打卡
-
-# 早起打卡 id ziye12
-# 微信扫码  https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.png 进入小程序，登录获取授权
-http-request ^https:\/\/ph0001\.hezyq\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.js, requires-body=true, timeout=10, tag=早起打卡
-
-# 梨涡app： https://bit.ly/33BRwHW  id iisams 
+# 梨涡app：
 http-request https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7dayscookie.js, requires-body=true, timeout=10, tag=梨涡签到领现金Cookie
