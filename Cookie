@@ -111,3 +111,7 @@ http-request ^https:\/\/ph0001\.hezyq\.com\/* script-path= https://raw.githubuse
 
 # 梨涡app：
 http-request https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7dayscookie.js, requires-body=true, timeout=10, tag=梨涡签到领现金Cookie
+
+# 京喜
+# 打开app首页，点击"任务赚金币",再点击"我的金币"即可
+http-request https:\/\/wq\.jd\.com\/pgcenter\/sign\/QueryPGDetail\?sceneval=2&pageSize=20 script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js
