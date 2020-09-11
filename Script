@@ -1,4 +1,4 @@
-# 脚本合集,用于Remove Ads + unlock vip.
+# 个人使用脚本整合,用于Remove Ads + unlock vip.
 
 hostname = ios.prod.ftl.netflix.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,api.bilibili.com, app.bilibili.com, api.live.bilibili.com, *.kuwo.cn, vip1.kuwo.cn, baidu.com, pan.baidu.com, www.baidu.com2.club, *.xiaoxiao*.com, *.bjxkhc.com, api.bjxkhc.com, *.my10api.com, pwaapi.gao1gps.cn, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, account.wps.*, api.termius.com, biz.caiyunapp.com, caiyunai.com, ap*.intsig.net, api.gamer.com.tw, vipapi.jxedt.com, editorapi.115.com, app.flashdown365.com, *.rr.tv,greasyfork.org, api.rr.tv, jdjoy.jd.com, 
 
