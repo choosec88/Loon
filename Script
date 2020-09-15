@@ -1,6 +1,6 @@
-# 个人使用脚本整合,用于Remove Ads + unlock vip.
+# 仅限于此库本人整合使用。删除广告 + 解锁VIP
 
-hostname = ios.prod.ftl.netflix.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,api.bilibili.com, app.bilibili.com, api.live.bilibili.com, *.kuwo.cn, vip1.kuwo.cn, baidu.com, pan.baidu.com, www.baidu.com2.club, *.xiaoxiao*.com, *.bjxkhc.com, api.bjxkhc.com, *.my10api.com, pwaapi.gao1gps.cn, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, account.wps.*, api.termius.com, biz.caiyunapp.com, caiyunai.com, ap*.intsig.net, api.gamer.com.tw, vipapi.jxedt.com, editorapi.115.com, app.flashdown365.com, *.rr.tv,greasyfork.org, api.rr.tv, jdjoy.jd.com, 
+hostname = mobile01.91quzou.com, ios.prod.ftl.netflix.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.bilibili.com, app.bilibili.com, api.live.bilibili.com, *.kuwo.cn, vip1.kuwo.cn, baidu.com, pan.baidu.com, www.baidu.com2.club, *.xiaoxiao*.com, *.bjxkhc.com, api.bjxkhc.com, *.my10api.com, pwaapi.gao1gps.cn, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, account.wps.*, api.termius.com, biz.caiyunapp.com, caiyunai.com, ap*.intsig.net, api.gamer.com.tw, vipapi.jxedt.com, editorapi.115.com, app.flashdown365.com, *.rr.tv,greasyfork.org, api.rr.tv, jdjoy.jd.com, 
 
 # Chavy box (多账号Cookie保存切换) 增加  http://boxjs.com 
 http-request ^https?://boxjs.com(/api|/home|/sub|/my|/app|/log|/revert)?($|\/) script-path=https://gitee.com/chavyleung/scripts/raw/master/chavy.box.js, requires-body=true, timeout=120, tag=BoxJs
