@@ -1,6 +1,6 @@
-# 个人使用库整合,用途在于Cookie获取.集合了脚本需要用到的主机名.使用后可手动将其禁用，以免产生不必要的MITM.
+# 用途在于Cookie获取.仅限于此库本人整合使用.部分脚本主机名.使用后可手动将其禁用，以免产生不必要的MITM.
 
-hostname = m.xiaomiyoupin.com, wq.jd.com, api.m.jd.com, draw.jdfcloud.com, ms.jr.jd.com, daojia.jd.com, ifac*.iqiyi.com, *.video.qq.com, www.baimaa.com, ph0001.hezyq.com, www.52pojie.cn,  passport.biligame.com,  music.163.com, api.inews.qq.com, draw.jdfcloud.com, api.weibo.cn, pay.sc.weibo.com, newsapi.sina.cn, *.youth.cn, ios.baertt.com, api-hdcj.9w9.com, as.xiaojukeji.com, nebula.kuaishou.com, mall.oclean.com,
+hostname = mobile01.91quzou.com, m.xiaomiyoupin.com, wq.jd.com, api.m.jd.com, draw.jdfcloud.com, ms.jr.jd.com, daojia.jd.com, ifac*.iqiyi.com, *.video.qq.com, www.baimaa.com, ph0001.hezyq.com, www.52pojie.cn,  passport.biligame.com,  music.163.com, api.inews.qq.com, draw.jdfcloud.com, api.weibo.cn, pay.sc.weibo.com, newsapi.sina.cn, *.youth.cn, ios.baertt.com, api-hdcj.9w9.com, as.xiaojukeji.com, nebula.kuaishou.com, mall.oclean.com,
 
 # 京东
 # 浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历
@@ -115,3 +115,7 @@ http-request https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign script-path=https:
 # 京喜
 # 打开app首页，点击"任务赚金币",再点击"我的金币"即可
 http-request https:\/\/wq\.jd\.com\/pgcenter\/sign\/QueryPGDetail\?sceneval=2&pageSize=20 script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js
+
+# 趣走app
+http-request https:\/\/mobile01\.91quzou\.com\/rebate\/qz\/task\/homeTaskView\.do script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/quwalk2.2.js, requires-body=true, timeout=30, tag=趣走签到
+
