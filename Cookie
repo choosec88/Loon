@@ -1,6 +1,6 @@
 # 个人使用库整合,用途在于Cookie获取.集合了脚本需要用到的主机名.使用后可手动将其禁用，以免产生不必要的MITM.
 
-hostname = m.xiaomiyoupin.com, wq.jd.com, api.m.jd.com, draw.jdfcloud.com, ms.jr.jd.com, daojia.jd.com, *.iqiyi.com, *.video.qq.com, www.baimaa.com, ph0001.hezyq.com, www.52pojie.cn,  passport.biligame.com,  music.163.com, api.inews.qq.com, draw.jdfcloud.com, api.weibo.cn, pay.sc.weibo.com, newsapi.sina.cn, *.youth.cn, ios.baertt.com, api-hdcj.9w9.com, as.xiaojukeji.com, nebula.kuaishou.com, mall.oclean.com,
+hostname = m.xiaomiyoupin.com, wq.jd.com, api.m.jd.com, draw.jdfcloud.com, ms.jr.jd.com, daojia.jd.com, ifac*.iqiyi.com, *.video.qq.com, www.baimaa.com, ph0001.hezyq.com, www.52pojie.cn,  passport.biligame.com,  music.163.com, api.inews.qq.com, draw.jdfcloud.com, api.weibo.cn, pay.sc.weibo.com, newsapi.sina.cn, *.youth.cn, ios.baertt.com, api-hdcj.9w9.com, as.xiaojukeji.com, nebula.kuaishou.com, mall.oclean.com,
 
 # 京东
 # 浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历
