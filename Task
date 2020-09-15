@@ -140,4 +140,4 @@ cron "1 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/mas
 cron "8 1 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_shop.js,tag=进店领豆
 
 # 趣走签到
-cron "50 2 0 * * *" script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/quwalk2.2.js,tag=趣走签到
+cron "0 35,50 0-24 * *" script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/quwalk2.2.js,tag=趣走签到
