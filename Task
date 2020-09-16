@@ -55,9 +55,6 @@ cron "20 9 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts
 # 京东特权值 
 cron "10 4 0 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js, tag= 京东特权值
 
-# 小米有品
-cron "50 9 0 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/xiaomiyp/xiaomiyp.js, tag=小米有品
-
 # 音乐打卡
 cron "0 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js,tag=音乐打卡
 
