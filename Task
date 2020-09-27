@@ -49,6 +49,9 @@ cron "55 23 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts
 # 梨涡签到 
 cron "40 2 0 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7days.js,tag=梨涡签到领现金
 
+# 梨涡闲时任务提醒
+cron "*/5 1-22 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/lwtask.js, tag=京东梨涡闲时任务提醒
+
 # 京喜
 cron "20 9 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js, tag= 京喜
 
