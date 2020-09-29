@@ -40,17 +40,11 @@ http-request ^https:\/\/luckman.suning.com\/luck-web\/sign\/api\/clock_sign.do s
 http-request ^https:\/\/sign.suning.com\/sign-web\/m\/promotion\/sign\/doSign.do script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
 http-request ^https:\/\/gameapi.suning.com\/sngame-web\/(api\/signin\/private\/customerSignOperation.do|gateway\/api\/queryPrize.do) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
 
-# 微信小程序-同程艺龙 
-http-request ^https:\/\/wx\.17u\.cn\/wcsign\/sign\/GetSignInfo script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tongc_cookie.js,requires-body=true
-
 # 京东到家 
 http-request https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js
 
 # 快手极速版
 http-request https:\/\/nebula\.kuaishou\.com\/rest\/n\/nebula\/activity\/earn\/overview script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js
-
-# 喜马拉雅
-http-request ^https?:\/\/.*\/mobile\-user\/homePage\/.* script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js
 
 # 微信小程序 来客有礼
 http-request https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js
@@ -76,9 +70,6 @@ http-request https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json script-path=ht
 
 # 微信小程序  欧可林商城
 http-request ^https:\/\/mall\.oclean\.com\/API\/VshopProcess\.ashx\?action=TaskHome&clientType=5&client=5&openId= script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js, tag=欧可林商城cookie
-
-# 惠头条
-http-request https:\/\/api\.cashtoutiao\.com script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/htt_cookie.js, requires-body=true, timeout=30, tag=惠头条cookie
 
 # 宠汪汪强制为别人助力
 http-request ^https:\/\/draw\.jdfcloud\.com\/\/pet\/enterRoom\?reqSource=weapp&invitePin=.*+(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?|^https:\/\/draw\.jdfcloud\.com\/\/pet\/helpFriend\?friendPin script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_help.js, requires-body=true, timeout=10, tag=宠汪汪强制为别人助力
