@@ -1,6 +1,6 @@
 # 用途在于Cookie获取.仅限于此库本人整合使用.部分脚本主机名.使用后可手动将其禁用，以免产生不必要的MITM.
 
-hostname = mobile01.91quzou.com, wq.jd.com, api.m.jd.com, draw.jdfcloud.com, ms.jr.jd.com, daojia.jd.com, ifac*.iqiyi.com, *.video.qq.com, www.baimaa.com, ph0001.hezyq.com, www.52pojie.cn,  passport.biligame.com,  music.163.com, api.inews.qq.com, draw.jdfcloud.com, api.weibo.cn, pay.sc.weibo.com, newsapi.sina.cn, *.youth.cn, ios.baertt.com, api-hdcj.9w9.com, as.xiaojukeji.com, nebula.kuaishou.com, mall.oclean.com,
+hostname = m.ximalaya.com mobile01.91quzou.com, wq.jd.com, api.m.jd.com, draw.jdfcloud.com, ms.jr.jd.com, daojia.jd.com, ifac*.iqiyi.com, *.video.qq.com, www.baimaa.com, ph0001.hezyq.com, www.52pojie.cn,  passport.biligame.com,  music.163.com, api.inews.qq.com, draw.jdfcloud.com, api.weibo.cn, pay.sc.weibo.com, newsapi.sina.cn, *.youth.cn, ios.baertt.com, api-hdcj.9w9.com, as.xiaojukeji.com, nebula.kuaishou.com, mall.oclean.com,
 
 # 京东
 # 浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历
@@ -115,3 +115,7 @@ http-request https:\/\/mobile01\.91quzou\.com\/rebate\/qz\/task\/homeTaskView\.d
 # 宠汪汪助力获取Cookie
 http-response ^https:\/\/draw\.jdfcloud\.com\/\/api\/user\/addUser\?code=\w+& script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js, requires-body=true, timeout=10, tag=宠汪汪助力更新Token
 http-request ^https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\? script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js, requires-body=true, timeout=10, tag=宠汪汪助力获取Token
+
+# 喜马拉雅极速版
+http-request  https:\/\/m\.ximalaya\.com\/speed\/task-center\/account\/coin script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/backUp/xmly_speed_ccokie.js
+ , requires-body=true, timeout=10, tag=喜马拉雅极速版Cookie
