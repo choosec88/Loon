@@ -1,6 +1,6 @@
 # 用途在于Cookie获取.仅限于此库本人整合使用.部分脚本主机名.使用后可手动将其禁用，以免产生不必要的MITM.
 
-hostname = wq.jd.com, api.m.jd.com, draw.jdfcloud.com, ms.jr.jd.com, daojia.jd.com, ifac*.iqiyi.com, act.vip.iqiyi.com, ifac2.iqiyi.com, *.video.qq.com, www.baimaa.com, www.52pojie.cn, passport.biligame.com, music.163.com, api.inews.qq.com, draw.jdfcloud.com, api.weibo.cn, pay.sc.weibo.com, newsapi.sina.cn, *.youth.cn, ios.baertt.com, api-hdcj.9w9.com, as.xiaojukeji.com, nebula.kuaishou.com, mall.oclean.com,
+hostname = wq.jd.com, api.m.jd.com, draw.jdfcloud.com, jdjoy.jd.com, ms.jr.jd.com, daojia.jd.com, ifac*.iqiyi.com, act.vip.iqiyi.com, ifac2.iqiyi.com, *.video.qq.com, www.baimaa.com, www.52pojie.cn, passport.biligame.com, music.163.com, api.inews.qq.com, draw.jdfcloud.com, api.weibo.cn, pay.sc.weibo.com, newsapi.sina.cn, *.youth.cn, ios.baertt.com, api-hdcj.9w9.com, as.xiaojukeji.com, nebula.kuaishou.com, mall.oclean.com,
 
 # 京东
 # 浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历
@@ -40,9 +40,6 @@ http-request ^https:\/\/luckman.suning.com\/luck-web\/sign\/api\/clock_sign.do s
 http-request ^https:\/\/sign.suning.com\/sign-web\/m\/promotion\/sign\/doSign.do script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
 http-request ^https:\/\/gameapi.suning.com\/sngame-web\/(api\/signin\/private\/customerSignOperation.do|gateway\/api\/queryPrize.do) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
 
-# 京东到家 
-http-request https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js
-
 # 快手极速版
 http-request https:\/\/nebula\.kuaishou\.com\/rest\/n\/nebula\/activity\/earn\/overview script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js
 
@@ -81,13 +78,18 @@ http-request https?:\/\/app.bilibili.com\/x\/v2\/space\/bangumi script-path=http
 # 进对应小程序获取ck
 http-request ^https:\/\/www\.baimaa\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js, requires-body=true, timeout=10, tag=打卡
 
-# 梨涡app
-http-request https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7dayscookie.js, requires-body=true, timeout=10, tag=梨涡签到领现金Cookie
-
-# 京喜
-# 打开app首页，点击"任务赚金币",再点击"我的金币"即可
-http-request https:\/\/wq\.jd\.com\/pgcenter\/sign\/QueryPGDetail\?sceneval=2&pageSize=20 script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js
-
 # 宠汪汪助力获取Cookie
 http-response ^https:\/\/draw\.jdfcloud\.com\/\/api\/user\/addUser\?code=\w+& script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js, requires-body=true, timeout=10, tag=宠汪汪助力更新Token
 http-request ^https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\? script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js, requires-body=true, timeout=10, tag=宠汪汪助力获取Token
+http-request ^https:\/\/draw\.jdfcloud\.com\/\/pet\/enterRoom\/h5\?reqSource=weapp&invitePin=.*+(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?|^https:\/\/draw\.jdfcloud\.com\/\/pet\/helpFriend\?friendPin script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_help.js, requires-body=true, timeout=10, tag=宠汪汪强制为别人助力
+http-response ^https:\/\/jdjoy\.jd\.com\/pet\/getPetTreasureBox|^https:\/\/draw\.jdfcloud\.com\/\/pet\/getPetTreasureBox script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_petTreasureBox.js, requires-body=true, timeout=10, tag=聚宝盆投狗粮辅助
+
+# 京东类型
+http-request https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js
+http-request ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/h5\/m\/recommendGetWay script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/tie/tie_cookie.js, tag=京东金额提额
+http-request ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/bt\/h5\/m\/queryUserSignFlow script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jdczfcookie.js, tag=京东成长分
+# 梨涡app
+http-request https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7dayscookie.js, requires-body=true, timeout=10, tag=梨涡签到领现金Cookie
+# 京喜
+# 打开app首页，点击"任务赚金币",再点击"我的金币"即可
+http-request https:\/\/wq\.jd\.com\/pgcenter\/sign\/QueryPGDetail\?sceneval=2&pageSize=20 script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js
