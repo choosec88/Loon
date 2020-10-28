@@ -1,7 +1,6 @@
 # corn.定时脚本执行，仅限于此库本人整合使用
 
 # 京东
-cron "10 3 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,tag=京东
 
 # 爱奇艺
 cron "40 3 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,tag=爱奇艺
@@ -10,53 +9,38 @@ cron "40 3 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/
 #1.手机浏览器访问并登录: https://film.qq.com/
 cron "20 2 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,tag=腾讯视频
 
-# 东东农场
-cron "8 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_fruit.js,tag=东东农场
-
-# 东东萌宠
-cron "10 0-19/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_pet.js,tag=东东萌宠
-
-# 京东种豆得豆
+# 京东合集
+cron "10 3 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,tag=京东
+cron "8 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_fruit.js,tag=京东农场
+cron "10 0-19/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_pet.js,tag=京东萌宠
 cron "15 0-21/2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js,tag=京东种豆得豆
-
-# 宠汪汪(主要是日常任务,不过里面也有喂食和领取三餐狗粮)
 cron "13 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js,tag=宠汪汪
-
-# 宠汪汪喂食
 cron "0 */2  * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_feedPets.js,tag=宠汪汪喂食
-
-# 宠汪汪偷好友积分与狗粮
+cron "15 10 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js, timeout=30, tag=宠汪汪邀请助力与赛跑助力
 cron "0 0-23/5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_steal.js,tag=宠汪汪偷好友积分与狗粮
-
-# 宠汪汪积分兑换奖品
 cron "1 0,8,12,16 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js,tag=宠汪汪积分兑换奖品
-
-# 京东天天加速
 cron "8 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_speed.js,tag=京东天天加速
-
-# 京东摇钱树
 cron "3 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_moneyTree.js,tag=京东摇钱树
-
-# 京小超
 cron "11 1-23/5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js,tag=京小超
-
-# 京小超领蓝币(兑换京豆)
 cron "20 5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_blueCoin.js,tag=京小超领蓝币(兑换京豆)
-
-# 取关京东店铺商品
 cron "55 23 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_unsubscribe.js,tag=取关京东店铺商品
-
-# 梨涡签到 
 cron "40 2 0 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7days.js,tag=梨涡签到领现金
-
-# 梨涡闲时任务提醒
 cron "*/5 1-22 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/lwtask.js, tag=京东梨涡闲时任务提醒
-
-# 京喜
 cron "20 9 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js, tag= 京喜
-
-# 京东特权值 
 cron "10 4 0 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js, tag= 京东特权值
+cron "1 1 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_redPacket.js, tag=京东全民开红包
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js, tag=京东白条
+cron "5 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_club_lottery.js,tag=摇京豆
+cron "8 1 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_shop.js,tag=进店领豆
+cron "1 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_818.js,tag=京东手机狂欢城
+cron "1 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_xtg.js,tag=京东星推官
+cron "30 10 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js, tag=京东到家
+cron "40 10 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, tag=来客有礼
+
+# 京东成长分
+#打开京东金融app，“信用”-》“小白成长分”
+cron "5 6 0 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jdczf.js,tag=京东成长分
+cron "10 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/tie/tie_sign.js, tag=京东金融提额
 
 # 音乐打卡
 cron "0 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js,tag=音乐打卡
@@ -90,10 +74,6 @@ cron "10 0 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quan
 #2.现阶段每日共9个阶梯红包，具体阅读篇数视腾讯情况而变动
 #3.脚本运行一次阅读一篇文章，请不要连续运行，防止封号，可设置每几分钟运行一次
 cron "30 9 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,tag=腾讯新闻
-
-# 京东成长分
-#打开京东金融app，“信用”-》“小白成长分”
-cron "5 6 0 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jdczf.js,tag=京东成长分
 
 # 微信小程序-来客有礼
 # 微信搜索’来客有礼‘小程序,登陆京东账号，点击’领京豆->翻牌‘
@@ -130,11 +110,6 @@ cron "0 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts
 # 进入微信小程序"欧可林商城"并点击"每日任务"
 cron "1 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js, tag=欧可林商城
 
-# 进店京豆
-cron "8 1 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_shop.js,tag=进店领豆
 
-# 京东手机狂欢城
-cron "1 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_818.js,tag=京东手机狂欢城
 
-# 京东星推官
-cron "1 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_xtg.js,tag=京东星推官
+
