@@ -35,8 +35,6 @@ cron "1 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scri
 cron "1 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_xtg.js,tag=京东星推官
 cron "30 10 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js, tag=京东到家
 cron "40 10 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, tag=来客有礼
-cron "5 9-22 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_bigWinner.js, tag=京东大赢家
-cron "20 * * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_collectProduceScore.js, tag=京东全民营业领金币
 cron "20 0-20/4 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_timeMachine.js, tag=京东时光机
 cron "5 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_starStore.js, tag=京豆星店长
 
@@ -78,20 +76,11 @@ cron "10 0 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quan
 #3.脚本运行一次阅读一篇文章，请不要连续运行，防止封号，可设置每几分钟运行一次
 cron "30 9 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,tag=腾讯新闻
 
-# 微信小程序-来客有礼
-# 微信搜索’来客有礼‘小程序,登陆京东账号，点击’领京豆->翻牌‘
-cron "40 10 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js,tag=来客有礼
-
 # 微博 & 微博钱包
 #1.打开微博App获取Cookie.获取后请注释或禁用Cookie
 #2.打开微博钱包点击签到，获取Cookie，
 #3.钱包已经签到无法获取
 cron "28 6 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,tag=微博&钱包
-
-# 新浪新闻
-# 1.打开app,点击"我的"=>"签到"，获取第一个Cookie，通知获取信息成功
-# 2.在未签到情况下，先禁用第一条Cookie链接，然后再次进入签到，通知获取签到Cookie成功
-cron "56 6 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js,tag=新浪新闻
 
 # 中青看点极速版
 # 1.进入app，签到一次,即可获取Cookie. 
@@ -104,10 +93,6 @@ cron "20 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Script
 # 进入"滴滴出行"，若弹出"首次写入滴滴出行 Token 成功"
 cron "1 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js,tag=滴滴出行
 cron "59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js,tag=滴滴出行
-
-# 快手极速版
-#APP登陆账号后，点击’钱包‘
-cron "0 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js,tag=快手极速版
 
 # 微信小程序 - 欧可林商城 (By @zZPiglet)
 # 进入微信小程序"欧可林商城"并点击"每日任务"
