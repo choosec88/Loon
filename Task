@@ -40,6 +40,7 @@ cron "5 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/Quan
 cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机
 cron "11 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
 cron "5 9-22 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_bigWinner.js, tag=京东大赢家
+cron "*/2 * * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jdjr_pigpet_Unfinish.js, tag=养猪
 
 # 京东成长分
 #打开京东金融app，“信用”-》“小白成长分”
