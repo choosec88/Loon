@@ -65,7 +65,7 @@ http-request https?:\/\/app.bilibili.com\/x\/v2\/space\/bangumi script-path=http
 # 进对应小程序获取ck
 http-request ^https:\/\/www\.baimaa\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js, requires-body=true, timeout=10, tag=打卡
 
-# 宠汪汪助力获取Cookie
+# 宠汪汪助力获取类型
 http-response ^https:\/\/draw\.jdfcloud\.com\/mirror\/\/api\/user\/addUser\?code=\w+& script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_run.js, requires-body=true, timeout=10, tag=宠汪汪助力更新Token
 http-request ^https:\/\/draw\.jdfcloud\.com\/mirror\/\/api\/user\/user\/detail\?openId=\w+& script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_run.js, requires-body=true, timeout=10, tag=宠汪汪助力获取Token
 http-request ^https:\/\/draw\.jdfcloud\.com\/\/pet\/enterRoom\/h5\?reqSource=weapp&invitePin=.*+(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?|^https:\/\/draw\.jdfcloud\.com\/\/pet\/helpFriend\?friendPin script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_help.js, requires-body=true, timeout=10, tag=宠汪汪强制为别人助力
