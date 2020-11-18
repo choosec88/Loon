@@ -43,6 +43,16 @@ cron "20 0-20/4 * * *" script-path=https://raw.githubusercontent.com/yangtingxia
 cron "5 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_starStore.js, tag=京豆星店长
 cron "5 9-22 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_bigWinner.js, tag=京东大赢家
 
+# 京东物流
+cron "0 12 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js, tag=京东物流
+
+# 美团
+cron "3 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团
+
+# 饿了么
+cron "5 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js, tag=饿了么
+cron "50 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemPea.js, tag=饿了么
+
 # 京东成长分
 #打开京东金融app，“信用”-》“小白成长分”
 cron "5 6 0 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jdczf.js, tag=京东成长分
@@ -86,6 +96,9 @@ cron "30 9 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts
 #3.钱包已经签到无法获取
 cron "28 6 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js, tag=微博&钱包
 
+# 微博通知
+cron "0 * * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js, tag=微博通知
+
 # 中青看点极速版
 # 1.进入app，签到一次,即可获取Cookie. 
 # 2.阅读一篇文章，获取阅读请求body，
@@ -93,10 +106,9 @@ cron "28 6 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts
 # 4.激励视频获取方法: 关闭vpn，进入任务中心=>抽奖赚点击下面第一个宝箱，出现视频广告页面，然后打开vpn，等待视频播放完毕，点击点我继续领青豆，再重复一次上面操作，获取激励视频请求的body
 cron "20 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, tag=中青看点极速版
 
-# 滴滴出行
-# 进入"滴滴出行"，若弹出"首次写入滴滴出行 Token 成功"
-cron "1 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js, tag=滴滴出行
-cron "59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js, tag=滴滴出行
+# 滴滴
+cron "59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js, tag=滴滴
+cron "5 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js, tag=滴滴
 
 # 微信小程序 - 欧可林商城 (By @zZPiglet)
 # 进入微信小程序"欧可林商城"并点击"每日任务"
