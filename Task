@@ -1,24 +1,24 @@
 # corn.定时脚本执行，仅限于此库本人整合使用
 
 # 爱奇艺
-cron "11 5 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺
+cron "11 9 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺
 
 # 腾讯视频
 #1.手机浏览器访问并登录: https://film.qq.com/
-cron "50 5 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, tag=腾讯视频
+cron "50 9 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, tag=腾讯视频
 
 # 吾爱破解
-cron "30 5 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解
+cron "30 9 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解
 
 # 哔哩哔哩
 #打开浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com
-cron "30 7 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=哔哩哔哩
+cron "30 9 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=哔哩哔哩
 #如需银瓜子转硬币，取消下方注释
-cron "35 7 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js, tag=哔哩哔哩
+cron "35 9 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js, tag=哔哩哔哩
 
 # 什么值得买
 #浏览器访问并登录: https://zhiyou.smzdm.com/user/login
-cron "35 9 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js, tag=什么值得买
+cron "35 10 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js, tag=什么值得买
 
 # 中青看点极速版
 # 1.进入app，签到一次,即可获取Cookie. 
