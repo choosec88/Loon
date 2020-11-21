@@ -34,29 +34,34 @@ cron "15 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scrip
 cron "25 0 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7days.js, tag=涡涡签到领现金
 cron "*/5 1-22 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/lwtask.js, tag=东东涡涡闲时任务提醒
 cron "40 0 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js, tag=东东特权值
+
 cron "45 0 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js, tag=东东白条
 cron "55 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_redPacket.js, tag=东东全民开红包
 cron "15 1 0 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=东东抽奖机
 cron "10 2 0 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js, tag=东东排行榜
+cron "10 0,20 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_necklace.js,tag=东东点点券
+
+cron "11 1-23/5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_superMarket.js, tag=京小超
+cron "0 0 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js, tag=京小超兑换奖品
 cron "8 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_fruit.js, tag=东东农场
 cron "10 0-19/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pet.js, tag=东东萌宠
 cron "15 0-21/2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_plantBean.js, tag=东东种豆得豆
+
+
 cron "8 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_speed.js, tag=东东天天加速
 cron "3 */2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_moneyTree.js, tag=东东摇钱树
 cron "0 12 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_daily_egg.js, tag=天天提鹅
 cron "12 * * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pigPet.js, tag=金融养猪
+
 cron "15 */2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy.js, tag=京东宠汪汪
 cron "0 0,6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_steal.js, tag=宠汪汪偷好友积分与狗粮
 cron "15 */1 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_feedPets.js, tag=东东宠汪汪喂食
 cron "0 0-16/8 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_reward.js, tag=宠汪汪积分兑换奖品
 cron "15 10 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_run.js, tag=宠汪汪邀请助力与赛跑助力
-cron "11 1-23/5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_superMarket.js, tag=京小超
-cron "0 0 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js, tag=京小超兑换奖品
 cron "0 9 * * *" script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/ddxw.js, tag=东东小窝
 cron "2 0 * * *" script-path= https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_paopao.js, tag=泡泡大作战
 cron "0 */3 * * *" script-path=https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_factory.js, tag=东东工厂
 cron "2 9 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_change.js, tag=东东豆变动通知
-cron "10 0,20 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_necklace.js,tag=东东点点券
 cron "20 9 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js, tag=京喜
 
 # 东东暂定
