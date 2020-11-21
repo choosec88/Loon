@@ -87,12 +87,6 @@ cron "45 4 8 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Qu
 cron "0 5 8 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js, tag=机场签到Cookie版
 cron "0 4 8 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/funboat/funboat.js, tag=Funboat签到
 
-# 腾讯新闻
-#1.打开腾讯新闻app，阅读一篇文章，倒计时结束后即可获取Cookie
-#2.现阶段每日共9个阶梯红包，具体阅读篇数视腾讯情况而变动
-#3.脚本运行一次阅读一篇文章，请不要连续运行，防止封号，可设置每几分钟运行一次
-cron "30 9 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, tag=腾讯新闻
-
 # 微博 & 微博钱包
 #1.打开微博App获取Cookie.获取后请注释或禁用Cookie
 #2.打开微博钱包点击签到，获取Cookie，
