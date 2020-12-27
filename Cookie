@@ -1,6 +1,6 @@
 # 用途在于Cookie获取.仅限于此库本人整合使用.部分脚本主机名.使用后可手动将其禁用，以免产生不必要的MITM.
 
-hostname = wapside.189.cn, lkyl.dianpusoft.cn, ifac*.iqiyi.com, www.52pojie.cn, passport.biligame.com, music.163.com, zhiyou.smzdm.com, user-api.smzdm.com, m.bilibili.com, *.bilibili.com, *.video.qq.com, *.youth.cn, ios.baertt.com, mall.oclean.com, m.ximalaya.com, api.m.jd.com, draw.jdfcloud.com, jdjoy.jd.com, daojia.jd.com, m.jd.com, wq.jd.com, h5.ele.me, i.meituan.com, as.xiaojukeji.com  
+hostname = wapside.189.cn, alipaymini.189.cn, alipaymini.189.cn:8043, lkyl.dianpusoft.cn, ifac*.iqiyi.com, www.52pojie.cn, passport.biligame.com, music.163.com, zhiyou.smzdm.com, user-api.smzdm.com, m.bilibili.com, *.bilibili.com, *.video.qq.com, *.youth.cn, ios.baertt.com, mall.oclean.com, m.ximalaya.com, api.m.jd.com, draw.jdfcloud.com, jdjoy.jd.com, daojia.jd.com, m.jd.com, wq.jd.com, h5.ele.me, i.meituan.com, as.xiaojukeji.com  
 
 # 京东  （api.m.jd.com）
 # 浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历
