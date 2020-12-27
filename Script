@@ -1,6 +1,6 @@
 # 仅限于此库本人整合使用。删除广告 + 解锁VIP
 
-hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.bilibili.com, app.bilibili.com, api.live.bilibili.com, api.termius.com, jdjoy.jd.com 
+hostname = api.bilibili.com, app.bilibili.com, api.live.bilibili.com, api.termius.com, jdjoy.jd.com 
 
 # Chavy box (多账号Cookie保存切换) 增加  http://boxjs.com 
 http-request ^https?://boxjs.com(/api|/home|/sub|/my|/app|/log|/revert)?($|\/) script-path=https://gitee.com/chavyleung/scripts/raw/master/chavy.box.js, requires-body=true, timeout=120, tag=BoxJs
