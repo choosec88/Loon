@@ -22,6 +22,9 @@ cron "40 1 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/
 cron "10 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js,tag=什么值得买
 
 
+# 网易云音乐
+cron "10 2 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,tag=网易云音乐
+
 # 中青看点极速版
 # 1.进入app，签到一次,即可获取Cookie. 
 # 2.阅读一篇文章，获取阅读请求body，
@@ -141,4 +144,5 @@ cron "1 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/mas
 cron "0 * * * *" script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/Delete_All.js, enable=false, tag=抹掉Boxjs全局备份
 cron "0 * * * *" script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/Delete_Cache.js, enable=false, tag=抹掉Boxjs订阅缓存
 
-
+# 企鹅阅读
+cron "*/11 * * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/qqread.js, tag=企鹅读书
