@@ -1,6 +1,6 @@
 # 用途在于Cookie获取.仅限于此库本人整合使用.部分脚本主机名.使用后可手动将其禁用，以免产生不必要的MITM.
 
-hostname = wapside.189.cn, alipaymini.189.cn, alipaymini.189.cn:8043, lkyl.dianpusoft.cn, ifac*.iqiyi.com, www.52pojie.cn, passport.biligame.com, music.163.com, zhiyou.smzdm.com, user-api.smzdm.com, m.bilibili.com, *.bilibili.com, *.video.qq.com, *.youth.cn, ios.baertt.com, mall.oclean.com, m.ximalaya.com, api.m.jd.com, draw.jdfcloud.com, jdjoy.jd.com, daojia.jd.com, m.jd.com, wq.jd.com, h5.ele.me, i.meituan.com, as.xiaojukeji.com  
+hostname = m.client.10010.com, act.10010.com, wapside.189.cn, alipaymini.189.cn, alipaymini.189.cn:8043, lkyl.dianpusoft.cn, ifac*.iqiyi.com, www.52pojie.cn, passport.biligame.com, music.163.com, zhiyou.smzdm.com, user-api.smzdm.com, m.bilibili.com, *.bilibili.com, *.video.qq.com, *.youth.cn, ios.baertt.com, mall.oclean.com, m.ximalaya.com, api.m.jd.com, draw.jdfcloud.com, jdjoy.jd.com, daojia.jd.com, m.jd.com, wq.jd.com, h5.ele.me, i.meituan.com, as.xiaojukeji.com  
 
 # 东东  （api.m.jd.com）
 # 浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历
@@ -36,6 +36,7 @@ http-request ^https:\/\/access.video.qq.com\/user\/auth_refresh script-path=http
 http-request ^https?:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, tag=中国联通
 http-request ^https?:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, tag=中国联通
 http-request ^https?:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, tag=中国联通
+http-request https:\/\/m.client\.10010\.com\/mobileService\/home\/queryUserInfoSeven\.htm? script-path=liantongnotice.js, requires-header=true, timeout=30, tag=联通流量话费提醒
 
 #中国电信   （wapside.189.cn）
 http-request ^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js, requires-body=true, tag=中国电信
