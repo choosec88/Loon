@@ -145,4 +145,4 @@ cron "0 * * * *" script-path=https://raw.githubusercontent.com/Tartarus2014/Scri
 cron "0 * * * *" script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/Delete_Cache.js, enable=false, tag=抹掉Boxjs订阅缓存
 
 # 企鹅阅读
-cron "*/11 * * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/qqread.js, tag=企鹅读书
+cron "*/11 * * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreadnode.js, tag=企鹅读书
