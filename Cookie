@@ -70,6 +70,10 @@ http-response ^https:\/\/jdjoy\.jd\.com\/pet\/getPetTreasureBox|^https:\/\/draw\
 # 小米运动获取Token (account.huami.com)
 http-response ^https:\/\/account\.huami\.com\/v2\/client\/login script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/backUp/xmSports.js, requires-body=true, timeout=10, tag=小米运动获取Token
 
+# 京东粉丝专享 (wq.jd.com)
+http-request https:\/\/wq\.jd\.com\/bases\/jssdk\/GetWxJsApiSign tag=获取京东微信ck, script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_wechat_sign.js
+
+
 # 京东到家 （daojia.jd.com）
 http-request https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js, tag=京东到家
 
