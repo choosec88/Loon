@@ -61,6 +61,7 @@ cron "1 7 * * *" script-path=https://raw.githubusercontent.com/shylocks/Loon/mai
 cron "1 8,9 14-31/1 1 *" script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_bj.js,tag=宝洁美发屋
 cron "1 7 * * *" script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_ms.js,tag=京东秒秒币
 cron "5 7 * * *" script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_xg.js,tag=小鸽有礼
+cron "0 0,9,11,13,15,17,19,20,21,23 3,5,20-30/1 1,2 * " script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain_nian.js, tag=年货直播红包雨
 
 # 部分合集
 cron "45 0 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7days.js, tag=涡涡签到领现金
