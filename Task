@@ -48,6 +48,7 @@ cron "25 17 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scri
 cron "5 8 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jx_sign.js,tag=京喜签到
 
 # 期限部分活动
+cron "10 7 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_crazy_joy_coin.js, tag=crazyJoy挂机
 cron "0 8,9,10 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian.js,tag=京东炸年兽🧨
 cron "20 * * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nianCollect.js,tag=京东收🧨
 cron "10 8,21 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_firecrackers.js,tag=集鞭炮赢京豆
