@@ -1,6 +1,6 @@
 # 用途在于Cookie获取.仅限于此库本人整合使用.部分脚本主机名.使用后可手动将其禁用，以免产生不必要的MITM.
 
-hostname = m.client.10010.com, act.10010.com, wapside.189.cn, alipaymini.189.cn, alipaymini.189.cn:8043, lkyl.dianpusoft.cn, ifac*.iqiyi.com, www.52pojie.cn, passport.biligame.com, music.163.com, zhiyou.smzdm.com, user-api.smzdm.com, m.bilibili.com, *.bilibili.com, *.video.qq.com, *.youth.cn, ios.baertt.com, mall.oclean.com, m.ximalaya.com, api.m.jd.com, draw.jdfcloud.com, jdjoy.jd.com, daojia.jd.com, m.jd.com, wq.jd.com, account.huami.com, h5.ele.me, i.meituan.com, as.xiaojukeji.com  
+hostname = m.client.10010.com, act.10010.com, wapside.189.cn, alipaymini.189.cn, alipaymini.189.cn:8043, lkyl.dianpusoft.cn, ifac*.iqiyi.com, www.52pojie.cn, passport.biligame.com, zhiyou.smzdm.com, user-api.smzdm.com, m.bilibili.com, *.bilibili.com, *.video.qq.com, *.youth.cn, ios.baertt.com, mall.oclean.com, m.ximalaya.com, api.m.jd.com, draw.jdfcloud.com, jdjoy.jd.com, daojia.jd.com, m.jd.com, wq.jd.com, account.huami.com, h5.ele.me, i.meituan.com, as.xiaojukeji.com  
 
 # 东东  （api.m.jd.com）
 # 浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历
@@ -14,12 +14,6 @@ http-request https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.git
 
 # bilibili漫画 (passport.biligame.com)
 http-request ^https:\/\/passport\.biligame\.com\/api\/login\/sso.+?version%22%3A%22(3|4|5) script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js, tag=哔哩哔哩漫画
-
-# 网易云音乐   (music.163.com)
-#1. 先登录: <https://music.163.com/m/login>
-#2. 再访问: <https://music.163.com/#/user/level>
-#3. 提示: `获取会话: 成功!`
-http-request ^https:\/\/music.163.com\/weapi\/user\/level script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js, requires-body=true, tag=网易云音乐
 
 # 什么值得买  （zhiyou.smzdm.com，user-api.smzdm.com）
 http-request ^https:\/\/www\.smzdm\.com\/?.? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.cookie.js, tag=什么值得买
