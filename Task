@@ -57,6 +57,7 @@ cron "0 8 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_
 cron "20 8 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal_answer.js,tag=京东神仙书院答题
 cron "20 8 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_sgmh.js, tag=闪购盲盒
 cron "20 7 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_super_box.js,tag=京东超级盒子
+cron "0 0,6,12,18 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_5g.js, tag=5G狂欢城
 
 
 # 部分合集
