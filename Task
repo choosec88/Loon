@@ -21,17 +21,6 @@ cron "40 1 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/
 #浏览器访问并登录: https://zhiyou.smzdm.com/user/login
 cron "10 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js,tag=什么值得买
 
-
-# 网易云音乐
-cron "10 2 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,tag=网易云音乐
-
-# 中青看点极速版
-# 1.进入app，签到一次,即可获取Cookie. 
-# 2.阅读一篇文章，获取阅读请求body，
-# 3.在阅读文章最下面有个惊喜红包，点击获取惊喜红包请求
-# 4.激励视频获取方法: 关闭vpn，进入任务中心=>抽奖赚点击下面第一个宝箱，出现视频广告页面，然后打开vpn，等待视频播放完毕，点击点我继续领青豆，再重复一次上面操作，获取激励视频请求的body
-cron "20 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, tag=中青看点极速版
-
 # 中国联通
 cron "0 5 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通
 cron "7 0 * * *" script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/liantongnotice.js, tag=联通流量话费提醒
@@ -42,105 +31,12 @@ cron "50 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 cron "0 10 */3 * *" script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/dianx/dianx.js, tag=电信签到
 cron "36 0 8,12,13,14,18,19,20,21,22,23 * * *" script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/dianx/dxbox.js, tag=整点开宝箱
 
-# 小米运动
-cron "25 17 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/backUp/xmSports.js, tag=小米运动
-# 京喜签到
-cron "5 8 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jx_sign.js,tag=京喜签到
-                                    
-
-# 期限部分活动
-cron "10 7 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_crazy_joy_coin.js, tag=crazyJoy挂机
-cron "0 0 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_coupon.js, tag=源头好物红包
-cron "0 8,9,10 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nian.js,tag=京东炸年兽🧨
-cron "20 * * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nianCollect.js,tag=京东收🧨
-cron "0 8 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal.js,tag=京东神仙书院
-cron "20 8 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal_answer.js,tag=京东神仙书院答题
-cron "20 8 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_sgmh.js, tag=闪购盲盒
-cron "20 7 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_super_box.js,tag=京东超级盒子
-cron "0 0,6,12,18 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_5g.js, tag=5G狂欢城
-cron "0 0,9,11,13,15,17,19,20,21,23 3,5,20-30/1 1,2 *" script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/jd_live_redrain_nian.js, tag=年货直播红包雨
-
-# 部分合集
-cron "10 7 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_ms.js,tag=京东秒秒币
-cron "5 7 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_xg.js,tag=小鸽有礼
-cron "30,31 12-23/1 * * *" script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain_half.js, tag=半点红包雨
-
-# 部分合集
+# jd部分合集
 cron "45 0 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7days.js, tag=涡涡签到领现金
 cron "*/5 1-22 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/lwtask.js, tag=东东涡涡闲时任务提醒
 cron "59 0 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js, tag=东东特权值
 cron "40 1 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=东东
 cron "59 2 0 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js, tag=东东白条
-
-# LXK9301合集
-# 东东农场
-cron "5 6-18/6 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_fruit.js,tag=东东农场
-# 东东萌宠
-cron "10 7-19/6 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_pet.js,tag=东东萌宠
-# 京东种豆得豆
-cron "1 7-21/2 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_plantBean.js,tag=京东种豆得豆
-# 宠汪汪(主要是日常任务,不过里面也有喂食和领取三餐狗粮)
-cron "15 1,7,9,12,18,21 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy.js,tag=宠汪汪
-# 宠汪汪喂食
-cron "12 */1 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_feedPets.js,tag=宠汪汪喂食
-# 宠汪汪偷好友积分与狗粮
-cron "0 0,6 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_steal.js,tag=宠汪汪偷好友积分与狗粮
-# 宠汪汪积分兑换奖品
-cron "0 0,8,12,16 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_reward.js,tag=宠汪汪积分兑换奖品
-# 京东天天加速
-cron "8 */3 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_speed.js,tag=京东天天加速
-# 京东摇钱树
-cron "3 */5 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_moneyraw.js,tag=京东摇钱树
-# 京小超
-cron "11 1-23/2 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_superMarket.js,tag=京小超
-# 京小超兑换奖品
-cron "0,30 0 0 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_blueCoin.js,tag=京小超兑换奖品
-# 取关京东店铺商品
-cron "55 23 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_unsubscribe.js,tag=取关京东店铺商品
-# 进店领豆
-cron "10 0 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_shop.js,tag=进店领豆
-#摇京豆
-cron "5 0 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_club_lottery.js,tag=摇京豆
-#京东全民开红包
-cron "1 1 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_redPacket.js, tag=京东全民开红包
-#京豆变动通知
-cron "2 9 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_bean_change.js, tag=京豆变动通知
-#点点券
-cron "20 0,20 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_necklace.js, tag=点点券
-#十元街
-cron "10 7 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_syj.js, tag=十元街
-#东东小窝
-cron "16 0 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_small_home.js, tag=东东小窝
-#京喜工厂
-cron "26 * * * *" script-path= https://gitee.com/lxk0301/jd_scripts/raw/master/jd_dreamFactory.js, tag=京喜工厂
-#东东工厂
-cron "10 * * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_jdfactory.js,tag=东东工厂
-#宠汪汪邀请助力与赛跑助力
-cron "15 10 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_run.js, tag=宠汪汪邀请助力与赛跑助力
-# 京东代属
-# cron "10 7 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_ds.js, tag=京东代属
-# 京东快递
-cron "10 0 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_kd.js, tag=京东快递签到
-# 京东汽车
-cron "0 0 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_car.js, tag=京东汽车
-# 领京豆额外奖励
-cron "10 7 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_bean_home.js, tag=领京豆额外奖励
-# 京东赚赚
-cron "10 11 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_jdzz.js, tag=京东赚赚
-# 京东秒杀红包雨
-# cron "10 7 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_ms_redrain.js, tag=秒杀红包雨
-#注销京东店铺会员卡
-cron "23 12 * * 6" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_unbind.js, tag=注销京东店铺会员卡
-# 健康抽奖机
-#cron "10 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_health.js,tag=健康抽奖机
-# 疯狂的joy日常任务
-cron "30 8 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_crazy_joy.js,tag=疯狂的joy日常任务
-#京东汽车兑换
-cron "0 0 0 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_car_exchange.js, tag=京东汽车兑换
-#口袋书店
-cron "1 8,12,18 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_bookshop.js, tag=口袋书店
-#京东年货节
-cron "1 7 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nh.js,tag=京东年货节
 
 # 东东物流
 cron "0 12 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js, tag=东东物流
