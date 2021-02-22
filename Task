@@ -12,6 +12,8 @@ cron "*/5 1-22 * * *" script-path=https://raw.githubusercontent.com/iisams/Scrip
 cron "59 0 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js, tag=东东特权值
 cron "40 1 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=东东
 cron "59 2 0 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js, tag=东东白条
+cron "3 10 * * *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_fanslove.js,tag=粉丝互动
+cron "0 0 22-28 2 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_asus_iqiyi.js,tag=华硕-iqiyi
 
 # 腾讯视频
 #1.手机浏览器访问并登录: https://film.qq.com/
