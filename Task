@@ -14,6 +14,7 @@ cron "40 1 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/
 cron "59 2 0 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js, tag=东东白条
 cron "3 10 * * *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_fanslove.js,tag=粉丝互动
 cron "0 0 22-28 2 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_asus_iqiyi.js,tag=华硕-iqiyi
+cron "5 12 22-27 2 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_jump-jump.js,tag=母婴-跳一跳
 
 # 腾讯视频
 #1.手机浏览器访问并登录: https://film.qq.com/
