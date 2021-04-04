@@ -14,6 +14,8 @@ cron "40 1 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/
 cron "59 2 0 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js, tag=东东白条
 cron "3 0,10,23 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/monk_shop_lottery.js,tag=店铺大转盘
 cron "0 0 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/monk_inter_shop_sign.js,tag=interCenter渠道店铺签到
+cron "15 15 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/monk_shop_follow_sku.js,tag=关注有礼
+cron "15 12 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/monk_shop_add_to_car.js,tag=加购有礼
 
 # 腾讯视频
 #1.手机浏览器访问并登录: https://film.qq.com/
