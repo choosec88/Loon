@@ -1,6 +1,6 @@
 # 用途在于Cookie获取.仅限于此库本人整合使用.部分脚本主机名.使用后可手动将其禁用，以免产生不必要的MITM.
 
-hostname = ifac*.iqiyi.com, www.52pojie.cn, *.video.qq.com, daojia.jd.com, m.jd.com, api.m.jd.com, h5.ele.me, i.meituan.com, as.xiaojukeji.com  
+hostname = ifac*.iqiyi.com, www.52pojie.cn, *.video.qq.com, daojia.jd.com, m.jd.com, api.m.jd.com, h5.ele.me, i.meituan.com, as.xiaojukeji.com, *.isvjcloud.com  
 
 # 东东  （api.m.jd.com）
 # 浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历
@@ -34,3 +34,6 @@ http-request ^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/ script-path=ht
 
 # 滴滴 （as.xiaojukeji.com）
 http-request ^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js, timeout=10, tag=DiDi.js
+
+#东东大转盘 (*.isvjcloud.com)
+cron "3 0,10,23 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/monk_shop_lottery.js,tag=店铺大转盘
