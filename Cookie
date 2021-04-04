@@ -36,4 +36,4 @@ http-request ^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/ script-path=ht
 http-request ^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js, timeout=10, tag=DiDi.js
 
 #店铺大转盘
-^https://lzkj\-isv\.isvjcloud\.com\/wxCommonInfo\/initActInfo url script-request-body https://raw.githubusercontent.com/monk-coder/dust/dust/rewrite/m_get_shop_lottery.js
+http-request ^https://lzkj\-isv\.isvjcloud\.com\/wxCommonInfo\/initActInfo script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/rewrite/m_get_shop_lottery.js
