@@ -19,7 +19,7 @@ cron "1 0-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/l
 #半点红包雨
 cron "30 20-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js,tag=半点京豆雨
 #直播间抽奖
-cron "5 8-23/1 * * *" script-path=https://github.com/nianyuguai/longzhuzhu/blob/dev/qx/jd_live_lottery_social.js,tag=直播间抽奖（全局）
+cron "5 8-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/dev/qx/jd_live_lottery_social.js,tag=直播间抽奖（全局）
 
 # 腾讯视频
 #1.手机浏览器访问并登录: https://film.qq.com/
