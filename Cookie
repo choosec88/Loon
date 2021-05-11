@@ -1,6 +1,6 @@
 # 用途在于Cookie获取.仅限于此库本人整合使用.部分脚本主机名.使用后可手动将其禁用，以免产生不必要的MITM.
 
-hostname = ifac*.iqiyi.com, www.52pojie.cn, *.video.qq.com, daojia.jd.com, m.jd.com, api.m.jd.com, h5.ele.me, i.meituan.com, promotion.waimai.meituan.com, as.xiaojukeji.com, *.isvjcloud.com  
+hostname = ifac*.iqiyi.com, www.52pojie.cn, *.video.qq.com, m.jd.com, api.m.jd.com, h5.ele.me, i.meituan.com, promotion.waimai.meituan.com, as.xiaojukeji.com, *.isvjcloud.com  
 
 # 东东  （api.m.jd.com）
 # 浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历
@@ -15,9 +15,6 @@ http-request https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.git
 # 腾讯视频  (*.video.qq.com)
 # 手机浏览器访问并登录下https://film.qq.com/,随便选 1 部电影观看
 http-request ^https:\/\/access.video.qq.com\/user\/auth_refresh script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js, tag=腾讯视频
-
-# 京东到家 （daojia.jd.com）
-http-request https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js, tag=京东到家
 
 #京东金融类型 （m.jd.com, api.m.jd.com）
 http-request ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/h5\/m\/recommendGetWay script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/tie/tie_cookie.js, tag=京东金额提额
