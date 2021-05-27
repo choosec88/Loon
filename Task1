@@ -9,3 +9,4 @@ cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/
 cron "1 0-23/4 * 5,6 * " script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_city_cash.js, tag=城城分现金
 cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_newInteraction.js,tag=618大势新品赏
 cron "15 9 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_jxhb.js,tag=京喜阶梯红包
+cron "40 9-18/3 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_star.js,tag=家电星推官
