@@ -1,6 +1,8 @@
-cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js,tag=京东抽奖机
+cron "10 0 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js,tag=京东抽奖机
 cron "5 * * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js,tag=动物联萌
-cron "15 9 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/member/adolf_flp.js,tag=飞利浦电视成长记
-cron "25 9 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/member/adolf_oneplus.js,tag=赢一加新品手机
+cron "30 0 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/member/adolf_flp.js,tag=飞利浦电视成长记
+cron "25 8 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/member/adolf_oneplus.js,tag=赢一加新品手机
 cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_superbox.js,tag=京东超级盒子
-cron "15 9 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_jxhb.js,tag=京喜阶梯红包
+cron "15 9 * 3,4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_jxhb.js,tag=京喜阶梯红包
+cron "15 5 * 0,3 *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_gcip.js,tag=国创I'm
+cron "15 13 1-18 6 *" script-path=https://raw.githubusercontent.com/zooPanda/zoo/dev/zooLongzhou.js,tag=龙舟
