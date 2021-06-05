@@ -10,3 +10,4 @@ cron "15 13 1-18 6 *" script-path=https://raw.githubusercontent.com/zooPanda/zoo
 cron "15 0,6,13,19,21 * * *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js,tag=京享值PK
 cron "1 10-23/1 1-18 6 *" script-path=https://raw.githubusercontent.com/choosec88/Loon/master/hongbao.js,tag=618主会场红包雨
 cron "30 7,9 1-18 6 *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_limitBox.js,tag=618限时盲盒
+cron "1 10-23/1 1-18 6 *" script-path=https://raw.githubusercontent.com/oujisome/jdshell/main/long_hby_lottery.js,tag=红包雨
