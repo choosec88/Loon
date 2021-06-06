@@ -16,9 +16,9 @@ cron "59 2 0 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/Q
 cron "0 * * * *" script-path=https://raw.githubusercontent.com/zixingzou/wuyu/main/jx_tx.js, tag=tx
 
 # 整点红包雨
-cron "1 0-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, tag=整点京豆雨
+cron "1 0-23/1 * * *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_super_redrain.js,tag=整点京豆雨
 # 半点红包雨
-cron "30 20-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js, tag=半点京豆雨
+cron "30 16-23/1 * * *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_half_redrain.js,tag=半点京豆雨
 
 # 腾讯视频
 #1.手机浏览器访问并登录: https://film.qq.com/
