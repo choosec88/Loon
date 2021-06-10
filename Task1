@@ -10,3 +10,6 @@ cron "30 7,9 1-18 6 *" script-path=https://raw.githubusercontent.com/Wenmoux/scr
 cron "1 20 1-18 6 *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_hby_lottery.js,tag=主会场红包雨
 cron "10 0-23/1 * * *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_618redpacket.js,tag=翻翻乐
 cron "30 11 * * *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_superBrand.js,tag=特物Z|万物皆可国创
+cron "10 1 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_ry618.js,tag=荣耀618
+cron "30 11 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_qqtmy.js,tag=惊奇
+cron "30 11 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_gcip.js,柠檬国创
