@@ -12,4 +12,6 @@ cron "10 0-23/1 * * *" script-path=https://raw.githubusercontent.com/Wenmoux/scr
 cron "30 11 * * *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_superBrand.js,tag=特物Z|万物皆可国创
 cron "10 1 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_ry618.js,tag=荣耀618
 cron "30 11 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_qqtmy.js,tag=惊奇
-cron "30 11 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_gcip.js,柠檬国创
+cron "30 11 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_gcip.js,tag=柠檬国创
+cron "30 11 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_dphby.js,tag=大牌闪购红包雨
+cron "30 11 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_chb.js,tag=柠檬拆红包
