@@ -1,6 +1,7 @@
 cron "10 0 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js,tag=京东抽奖机
 cron "10 1 * * *" script-path=https://raw.githubusercontent.com/zooPanda/zoo/dev/zooBaojiexiaoxiaole.js,tag=保洁消消乐
 cron "10 2 * * *" script-path=https://raw.githubusercontent.com/zooPanda/zoo/dev/zooJx88hongbao.js,tag=惊喜88红包
+cron "5 * * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js,tag=动物联盟
 cron "10 1 * * *" script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/zy_618jc.js,tag=手机竞猜
 cron "30 0 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/member/adolf_flp.js,tag=飞利浦电视成长记
 cron "25 8 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/member/adolf_oneplus.js,tag=赢一加新品手机
@@ -12,6 +13,5 @@ cron "10 0-23/1 * * *" script-path=https://raw.githubusercontent.com/Wenmoux/scr
 cron "30 11 * * *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_superBrand.js,tag=特物Z|万物皆可国创
 cron "10 1 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_ry618.js,tag=荣耀618
 cron "30 11 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_qqtmy.js,tag=惊奇
-cron "30 11 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_gcip.js,tag=柠檬国创
 cron "30 11 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_dphby.js,tag=大牌闪购红包雨
 cron "30 11 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_chb.js,tag=柠檬拆红包
