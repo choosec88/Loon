@@ -1,6 +1,7 @@
 cron "10 0 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js,tag=京东抽奖机
 cron "0-59/30 * * * *" script-path=https://github.com/star261/jd/blob/main/scripts/jd_zooCollect.js,tag=618动物合集
 cron "13 0-23/2 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_zoo.js, tag=618动物联萌
+cron "0-59/30 * * * *" script-path=https://raw.githubusercontent.com/star261/jd/main/scripts/jd_zooMap.js,tag=618动物合集
 cron "10 2 * * *" script-path=https://raw.githubusercontent.com/zooPanda/zoo/dev/zooJx88hongbao.js,tag=惊喜88红包
 cron "40 3 * * *" script-path=https://raw.githubusercontent.com/star261/jd/main/scripts/jd_star_shop.js,tag=星店长
 cron "5 * * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js,tag=动物联盟
