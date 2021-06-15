@@ -26,3 +26,4 @@ cron "30 11 * * *" script-path=https://raw.githubusercontent.com/panghu999/pangh
 cron "30 11 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_chb.js,tag=柠檬拆红包
 cron "0-59/30 * * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_zxrby.js,tag=柠檬特物ZX润百颜
 cron "0-59/30 * * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_hsb.js,tag=柠檬特物ZX护舒宝
+cron "0-59/30 * * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_zxjoy.js,tag=京东柠檬特物ZXJOY&DOGA
