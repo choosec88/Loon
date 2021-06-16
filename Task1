@@ -8,7 +8,6 @@ cron "10 1 * * *" script-path=https://raw.githubusercontent.com/Ariszy/Private-S
 
 cron "30 7,9 1-18 6 *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_limitBox.js,tag=618限时盲盒
 cron "10 0-23/1 * * *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_618redpacket.js,tag=翻翻乐
-cron "30 11 * * *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_superBrand.js,tag=特物Z|万物皆可国创
 
 cron "10 2 * * *" script-path=https://raw.githubusercontent.com/zooPanda/zoo/dev/zooJx88hongbao.js,tag=惊喜88红包
 cron "30 7,9 1-18 6 *" script-path=https://raw.githubusercontent.com/zooPanda/zoo/dev/zooLimitbox.js,tag=618限时盲盒
@@ -24,11 +23,3 @@ cron "36 0,6-23/2 * * *" script-path=https://raw.githubusercontent.com/star261/j
 cron "0-59/30 * * * *" script-path=https://raw.githubusercontent.com/star261/jd/main/scripts/jd_zooMap.js,tag=618动物合集
 cron "40 3 * * *" script-path=https://raw.githubusercontent.com/star261/jd/main/scripts/jd_star_shop.js,tag=星店长
 
-
-cron "10 1 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_ry618.js,tag=柠檬荣耀618
-cron "30 11 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_dphby.js,tag=柠檬大牌闪购红包雨
-cron "30 11 * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_chb.js,tag=柠檬拆红包
-cron "0-59/30 * * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_zxrby.js,tag=柠檬特物ZX润百颜
-cron "0-59/30 * * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_hsb.js,tag=柠檬特物ZX护舒宝
-cron "0-59/30 * * * *" script-path=https://raw.githubusercontent.com/panghu999/panghu/master/jd_zxjoy.js,tag=京东柠檬特物ZXJOY&DOGA
-cron "1 20 1-18 6 *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_hby_lottery.js,tag=618红包雨
