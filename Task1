@@ -10,3 +10,4 @@ cron "2 * * * *" script-path=https://raw.githubusercontent.com/zero205/JD_tencen
 cron "10 0-23/1 * * *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_618redpacket.js,tag=翻翻乐
 cron "10 2 * * *" script-path=https://raw.githubusercontent.com/zooPanda/zoo/dev/zooJx88hongbao.js,tag=惊喜88红包
 cron "2 * * * *" script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_qjd.js,tag=抢豆子
+cron "30 11 * * *" script-path=https://raw.githubusercontent.com/cdle/jd_study/main/jd_dogsEmploy.js,tag=一次性
